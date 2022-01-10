@@ -1,13 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { Segment, Header } from 'semantic-ui-react'
+import { BrowserRouter } from 'react-router-dom'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
-        <p>
-          My Portfolio
-        </p>
-        
-  );
+    <>
+      <BrowserRouter>
+        <NavBar></NavBar>
+      </BrowserRouter>
+      <Segment>
+        <Header>My Portfolio</Header>
+      </Segment>
+    </>
+  )
 }
 
-export default App;
+export default App

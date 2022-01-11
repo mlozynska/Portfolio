@@ -5,18 +5,22 @@ import { Segment, Menu, MenuItem, Header, Grid } from 'semantic-ui-react'
 const NavBar = () => {
   return (
     <>
-      <Segment basic style={{ padding: '14px 0 0 0' }} inverted>
+      <Segment basic id="navBarSegment">
         <Menu secondary position="center">
-          {/* <MenuItem position="center"> */}
           <Grid columns={4} style={{ justifyContent: 'center' }}>
-            <Menu.Item>
-              <Header as="h4">ABOUT</Header>
+            <Menu.Item >
+              <Header as='h4' style={{ color: 'rebeccapurple'}}>ABOUT</Header>
             </Menu.Item>
             {/* <Menu.Item as={Link} to="/About">ABOUT</Menu.Item> */}
-            <Menu.Item>PROJECTS</Menu.Item>
-            <Menu.Item>TECHNOLOGIES</Menu.Item>
-            <Menu.Item>CONTACT</Menu.Item>
-            {/* </MenuItem> */}
+            <Menu.Item >
+              <Header as='h4' >PROJECTS</Header>
+            </Menu.Item>
+            <Menu.Item >
+              <Header as='h4' >TECHNOLOGIES</Header>
+            </Menu.Item>
+            <Menu.Item >
+              <Header as='h4' >CONTACT</Header>
+            </Menu.Item>
           </Grid>
         </Menu>
       </Segment>

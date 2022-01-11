@@ -12,12 +12,23 @@ code {
     monospace;
 } */
 
-p {
-  font-size: 40px;
+body {
+  background: #00b5ad4d !important;
+  /* background: #00b5ad87 !important; */
 }
+
+#navBarSegment{
+  padding: 15px 0;
+  margin: 0;
+}
+
 #logo {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
+}
+
+#background {
+  max-height: 225px
 }
 
 .ui.menu {
@@ -34,6 +45,17 @@ p {
   align-items: center;
   justify-content: center;
 }
-h4.ui.header {
-  margin-top: 0;
+h1.ui.header {
+  margin: 20px 0 0 0;
+  color:mediumturquoise;
 }
+
+p {
+  color:mediumturquoise;
+  color: rebeccapurple;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif
+}
+
+/* p {
+  color:rebeccapurple;
+} */

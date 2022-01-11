@@ -1,16 +1,26 @@
 import React from 'react'
-import { Segment, Menu, Grid, Image } from 'semantic-ui-react'
-import logo from '../assets/logo.png'
+import { Segment, Menu, MenuItem, Header, Grid } from 'semantic-ui-react'
+// import logo from '../assets/logo.png'
 
 const NavBar = () => {
   return (
-    <Segment>
-      <Menu>
-        <Grid>
-          <Menu.Item>{/* <Image src={logo} id="logo "></Image> */}</Menu.Item>
-        </Grid>
-      </Menu>
-    </Segment>
+    <>
+      <Segment basic style={{ padding: '14px 0 0 0' }} inverted>
+        <Menu secondary position="center">
+          {/* <MenuItem position="center"> */}
+          <Grid columns={4} style={{ justifyContent: 'center' }}>
+            <Menu.Item>
+              <Header as="h4">ABOUT</Header>
+            </Menu.Item>
+            {/* <Menu.Item as={Link} to="/About">ABOUT</Menu.Item> */}
+            <Menu.Item>PROJECTS</Menu.Item>
+            <Menu.Item>TECHNOLOGIES</Menu.Item>
+            <Menu.Item>CONTACT</Menu.Item>
+            {/* </MenuItem> */}
+          </Grid>
+        </Menu>
+      </Segment>
+    </>
   )
 }
 

@@ -13,7 +13,7 @@ const Hero = () => {
           <Segment id="logoInfo" basic>
             <Image src={logo} id="logo" centered />
             <Header as="h1">Mariana Lozynska </Header>
-            <p as="h4">Software Developer</p>
+            <p as="h4">Software Developer | Pastry Chef | Dollmaker</p>
           </Segment>
         </GridColumn>
         <GridColumn style={{ padding: '0 0' }}>
@@ -21,20 +21,6 @@ const Hero = () => {
         </GridColumn>
       </Grid>
     </Segment>
-    // <Segment basic style={{ margin: '0' }}>
-    //   <Grid columns={2}>
-    //     <GridColumn style={{ padding: '15px 0' }} id="leftColumn" >
-    //       <Segment id="logoInfo" basic>
-    //         <Image src={logo} id="logo" centered />
-    //         <Header as="h1">Mariana Lozynska </Header>
-    //         <Header as="h4">Software Developer</Header>
-    //       </Segment>
-    //     </GridColumn>
-    //     <GridColumn style={{ padding: '15px 0' }}>
-    //       <Image src={background} fluid></Image>
-    //     </GridColumn>
-    //   </Grid>
-    // </Segment>
   )
 }
 export default Hero

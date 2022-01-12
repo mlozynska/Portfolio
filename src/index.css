@@ -17,7 +17,7 @@ body {
   /* background: #00b5ad87 !important; */
 }
 
-#navBarSegment{
+#navBarSegment {
   padding: 15px 0;
   margin: 0;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 #background {
-  max-height: 225px
+  max-height: 225px;
 }
 
 .ui.menu {
@@ -47,15 +47,51 @@ body {
 }
 h1.ui.header {
   margin: 20px 0 0 0;
-  color:mediumturquoise;
+  /* color: mediumturquoise; */
+  color: rebeccapurple;
 }
 
 p {
-  color:mediumturquoise;
-  color: rebeccapurple;
-  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif
+  color: mediumturquoise;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-/* p {
-  color:rebeccapurple;
-} */
+#segmentAboutMe {
+  height: 35px;
+  text-align: center;
+  align-items: center;
+}
+
+#shortAbout {
+  color: black;
+  padding: 0 60px;
+  font-size: smaller;
+  color: rebeccapurple;
+}
+
+#infoAbout {
+  text-align: justify;
+  color: black;
+  font-size: small;
+  padding: 0 30px;
+}
+
+#iconSegment {
+  padding: 0;
+}
+
+#iconId {
+  /* color: black; */
+  color: rebeccapurple;
+  font-size: xx-small;
+  padding-top: 5px;
+}
+
+#iconCard {
+  width: 80px;
+}
+
+#iconCardContent {
+  padding: 10px 0;
+  background: '#00b5ad4d';
+}

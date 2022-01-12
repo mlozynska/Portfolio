@@ -8,13 +8,12 @@ const NavBar = () => {
       <Segment basic id="navBarSegment">
         <Menu secondary position="center">
           <Grid columns={4} style={{ justifyContent: 'center' }}>
-            <Menu.Item as={Link} to="/About">
+            <Menu.Item as={Link} to="/">
               <Header as="h4" style={{ color: 'rebeccapurple' }}>
-                ABOUT
+                HOME
               </Header>
             </Menu.Item>
-            {/* <Menu.Item as={Link} to="/About">ABOUT</Menu.Item> */}
-            <Menu.Item>
+            <Menu.Item as={Link} to="/projects">
               <Header as="h4" style={{ color: 'rebeccapurple' }}>
                 PROJECTS
               </Header>

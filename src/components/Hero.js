@@ -1,8 +1,8 @@
 import React from 'react'
 import { Segment, Header, Image, Grid, GridColumn } from 'semantic-ui-react'
 import logo from '../assets/logo.png'
-import code from '../assets/code.img'
 import background from '../assets/background.png'
+import AboutMe from './Home'
 
 const Hero = () => {
   return (
@@ -20,6 +20,7 @@ const Hero = () => {
           <Image src={background} id="background" fluid></Image>
         </GridColumn>
       </Grid>
+      {/* <AboutMe /> */}
     </Segment>
   )
 }

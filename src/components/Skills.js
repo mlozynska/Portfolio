@@ -3,7 +3,7 @@ import { Header, Segment, Card, Image } from 'semantic-ui-react'
 
 const Skills = () => {
   return (
-    <>
+    <Segment basic>
       <Header as="h3" style={{ color: 'rebeccapurple' }}>
         SKILLS
       </Header>
@@ -342,7 +342,7 @@ const Skills = () => {
           </Card>
         </Card.Group>
       </Segment>
-    </>
+    </Segment>
   )
 }
 export default Skills

@@ -99,3 +99,35 @@ p {
   padding: 10px 0;
   background: '#00b5ad4d';
 }
+
+#segmentProjects {
+  height: 35px;
+  text-align: center;
+  align-items: center;
+}
+
+#cardContent {
+  text-align: justify;
+  font-size: 12px;
+}
+#projectCard {
+  max-width: 350px;
+  min-width: 250px;
+}
+#cardP {
+  color: rebeccapurple;
+  font-size: small;
+  padding-top: 5px;
+}
+#cardTitle {
+  min-height: 50px;
+  color: rebeccapurple;
+}
+#unLi {
+  min-height: 55px;
+  margin: 15px 0;
+}
+#list {
+  font-weight: bold;
+  font-size: 10px;
+}

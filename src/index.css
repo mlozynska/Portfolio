@@ -13,12 +13,13 @@ code {
 } */
 
 body {
-  background: #00b5ad4d !important;
-  /* background: #00b5ad87 !important; */
+  /* background: #00b5ad4d !important; */
+  background: #00b5ad26 !important;
+  /* background: #eee8f1db !important; */
 }
 
 #navBarSegment {
-  padding: 15px 0;
+  padding: 5px 0;
   margin: 0;
 }
 
@@ -48,7 +49,7 @@ body {
 h1.ui.header {
   margin: 20px 0 0 0;
   /* color: mediumturquoise; */
-  color: rebeccapurple;
+  color: #9771bd;
 }
 
 p {
@@ -61,11 +62,14 @@ p {
   text-align: center;
   align-items: center;
 }
+.ui.header:first-child {
+  margin-bottom: -5px;
+}
 
 #shortAbout {
   color: black;
-  padding: 0 60px;
-  font-size: smaller;
+  padding: 0 80px;
+  font-size: small;
   color: rebeccapurple;
 }
 

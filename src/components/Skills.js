@@ -4,7 +4,7 @@ import { Header, Segment, Card, Image } from 'semantic-ui-react'
 const Skills = () => {
   return (
     <>
-      <Header as="h1" style={{ color: 'rebeccapurple' }}>
+      <Header as="h3" style={{ color: 'rebeccapurple' }}>
         SKILLS
       </Header>
       <Segment basic style={{ padding: '0 50px' }}>

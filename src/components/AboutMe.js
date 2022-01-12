@@ -6,7 +6,7 @@ import ML from '../assets/ML.png'
 const AboutMe = () => {
   return (
     <Segment id="segmentAboutMe" basic>
-      <Header as="h1" style={{ color: 'rebeccapurple' }}>
+      <Header as="h3" style={{ color: 'rebeccapurple' }}>
         ABOUT
       </Header>
       <Segment basic style={{ margin: '0' }}>

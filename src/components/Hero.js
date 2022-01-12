@@ -6,10 +6,10 @@ import background from '../assets/background.png'
 
 const Hero = () => {
   return (
-    <Segment basic style={{ margin: '0' }} inverted>
-      <div style={{ background: 'src/assets/background.img'}}></div>
+    <Segment basic style={{ margin: '0 -18px 0 0 ' }} inverted>
+      <div style={{ background: 'src/assets/background.img' }}></div>
       <Grid columns={2}>
-        <GridColumn style={{ padding: '0 0' }} id="leftColumn" >
+        <GridColumn style={{ padding: '0 0' }} id="leftColumn">
           <Segment id="logoInfo" basic>
             <Image src={logo} id="logo" centered />
             <Header as="h1">Mariana Lozynska </Header>

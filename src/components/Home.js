@@ -4,6 +4,7 @@ import Skills from './Skills'
 import ML from '../assets/ML.png'
 import Projects from './Projects'
 import Hero from './Hero'
+import Experience from './Experience'
 
 const Home = () => {
   return (
@@ -31,6 +32,8 @@ const Home = () => {
         </p>
       </Segment>
       <Skills />
+
+      <Experience />
       <Header as="h3" style={{ color: 'rebeccapurple' }}>
         PROJECTS
       </Header>

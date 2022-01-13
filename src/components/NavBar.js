@@ -13,12 +13,14 @@ const NavBar = () => {
                 HOME
               </Header>
             </Menu.Item>
+
             <Menu.Item as={Link} to="/projects">
               <Header as="h4" style={{ color: 'rebeccapurple' }}>
                 PROJECTS
               </Header>
             </Menu.Item>
-            <Menu.Item>
+
+            <Menu.Item as={Link} to="/experince">
               <Header as="h4" style={{ color: 'rebeccapurple' }}>
                 EXPERIENCE
               </Header>

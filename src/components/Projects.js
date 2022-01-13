@@ -8,6 +8,9 @@ import cars from '../assets/cars.png'
 const Projects = () => {
   return (
     <Segment id="segmentProjects" basic>
+      {/* <Header as="h3" style={{ color: 'rebeccapurple' }}>
+        PROJECTS
+      </Header> */}
       <Card.Group itemsPerRow={4} style={{ justifyContent: 'center' }}>
         <Card id="projectCard" color="black">
           <Image src={tetris} style={{ maxHeight: '220px' }} />

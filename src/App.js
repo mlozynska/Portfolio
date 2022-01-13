@@ -5,6 +5,7 @@ import NavBar from './components/NavBar.js'
 import Home from './components/Home.js'
 import Hero from './components/Hero.js'
 import Projects from './components/Projects.js'
+import Experience from './components/Experience.js'
 
 const App = () => {
   return (
@@ -14,11 +15,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/experience" element={<Experience />} />
       </Routes>
-
-      {/* <Home /> */}
-      {/* <Projects /> */}
-      {/* <Route exact path="/about" element={<AboutMe />} /> */}
     </BrowserRouter>
   )
 }

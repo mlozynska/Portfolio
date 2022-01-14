@@ -27,6 +27,12 @@ body {
   width: 90px;
 }
 
+#logoSmall {
+  height: 60px;
+  width: 60px;
+  margin: -8px 0 -15px 100px;
+}
+
 #background {
   max-height: 225px;
 }
@@ -45,10 +51,21 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+#topHederSegment {
+  max-height: 160px;
+  margin: -10px -20px 0 0;
+}
+
 h1.ui.header {
   margin: 20px 0 0 0;
   /* color: mediumturquoise; */
   color: #9771bd;
+}
+
+#h1TopHeader {
+  color: #9771bd;
+  margin-bottom: 5px;
 }
 
 p {
@@ -121,23 +138,33 @@ p {
 }
 #headerProjects {
   color: rebeccapurple;
-  margin-bottom: 15px;
+  margin: 40px 0 25px 0;
+  text-align: center;
 }
 
 #cardP {
   color: rebeccapurple;
   font-size: small;
   padding-top: 5px;
+  text-align: center;
 }
 #cardTitle {
   min-height: 50px;
   color: rebeccapurple;
+  text-align: center;
 }
 #unLi {
   min-height: 75px;
   margin: 15px 0;
+  text-align: center;
 }
 #list {
   font-weight: bold;
   font-size: 10px;
+}
+#footerSegment {
+  background: rgb(240 227 246);
+  margin: 20px -20px 0 -20px;
+  display: flex;
+  justify-content: center;
 }

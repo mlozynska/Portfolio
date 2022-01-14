@@ -4,11 +4,14 @@ import tetris from '../assets/tetris.png'
 import astronomy from '../assets/astronomy.png'
 import parks from '../assets/parks.png'
 import cars from '../assets/cars.png'
+import Footer from './Footer'
+import TopHeader from './TopHeader'
 
 const Projects = () => {
   return (
-    <Segment id="segmentProjects" basic>
-      <Header id="headerProjects" as="h2" style={{ color: 'rebeccapurple' }}>
+    <>
+      <TopHeader />
+      <Header id="headerProjects" as="h1" style={{ color: 'rebeccapurple' }}>
         PROJECTS
       </Header>
       <Card.Group itemsPerRow={4} style={{ justifyContent: 'center' }}>
@@ -43,7 +46,12 @@ const Projects = () => {
           </Card.Content>
           <Card.Content extra style={{ background: 'rgb(240 227 246)' }}>
             <a href="https://github.com/mlozynska/sei-project-1">
-              <Icon name="github" size="large" color="black" />
+              <Icon
+                style={{ textAlign: 'center' }}
+                name="github"
+                size="large"
+                color="black"
+              />
             </a>
             <a href="https://mlozynska.github.io/sei-project-1/">
               <Icon name="linkify" size="large" color="black" />
@@ -191,7 +199,8 @@ const Projects = () => {
           </Card.Content>
         </Card>
       </Card.Group>
-    </Segment>
+      <Footer />
+    </>
   )
 }
 export default Projects

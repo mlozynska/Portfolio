@@ -50,7 +50,6 @@ const About = () => {
           </Segment>
         </GridColumn>
       </Grid>
-      {/* <Segment basic style={{ margin: '0' }}></Segment> */}
     </>
   )
 }

@@ -1,13 +1,20 @@
 import React from 'react'
 import { Segment, Header } from 'semantic-ui-react'
+import TopHeader from './TopHeader'
+import Footer from './Footer'
 
 const Experiences = () => {
   return (
-    <Segment basic>
-      <Header as="h3" style={{ color: 'rebeccapurple' }}>
+    <>
+      <TopHeader />
+      <Header id="headerProjects" as="h3" style={{ color: 'rebeccapurple' }}>
         EXPERIENCE
       </Header>
-      <Segment style={{ justifyContent: 'center' }} basic>
+      <Segment
+        id="segmentExperience"
+        style={{ justifyContent: 'center' }}
+        basic
+      >
         <Segment
           style={{ background: 'rgb(195 233 230)' }}
           color="black"
@@ -69,7 +76,8 @@ const Experiences = () => {
           </p>
         </Segment>
       </Segment>
-    </Segment>
+      <Footer />
+    </>
   )
 }
 export default Experiences

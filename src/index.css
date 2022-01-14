@@ -148,23 +148,36 @@ p {
   padding-top: 5px;
   text-align: center;
 }
+
 #cardTitle {
   min-height: 50px;
   color: rebeccapurple;
   text-align: center;
 }
+
 #unLi {
   min-height: 75px;
   margin: 15px 0;
   text-align: center;
 }
+
 #list {
   font-weight: bold;
   font-size: 10px;
 }
+
+#cardFooter {
+  text-align: center;
+  background: rgb(240 227 246);
+}
+
 #footerSegment {
   background: rgb(240 227 246);
+  background: #9771bd;
+  background: #ce71e54a;
   margin: 20px -20px 0 -20px;
+  padding: 0 0 50px 0;
   display: flex;
   justify-content: center;
+  max-height: 50px;
 }

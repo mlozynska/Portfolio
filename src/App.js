@@ -1,11 +1,11 @@
 import './App.css'
 // import { Segment, Header, Divider } from 'semantic-ui-react'
-import { BrowserRouter, Switch, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar.js'
 import Home from './components/Home.js'
-import Hero from './components/Hero.js'
+// import Hero from './components/Hero.js'
 import Projects from './components/Projects.js'
-import Experience from './components/Experience.js'
+import Experiences from './components/Experiences.js'
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/experience" element={<Experience />} />
+        <Route path="/experiences" element={<Experiences />} />
       </Routes>
     </BrowserRouter>
   )

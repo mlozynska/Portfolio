@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Segment, Header, Grid } from 'semantic-ui-react'
+import React from 'react'
+import { Segment, Header } from 'semantic-ui-react'
 
 const Experience = () => {
   return (

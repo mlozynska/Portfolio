@@ -2,11 +2,10 @@ import React from 'react'
 import { Segment, Header, Image, Grid, GridColumn } from 'semantic-ui-react'
 import logo from '../assets/logo.png'
 import background from '../assets/background.png'
-import AboutMe from './Home'
 
 const Hero = () => {
   return (
-    <Segment basic style={{ margin: '0 -18px 0 0 ' }} inverted>
+    <Segment basic style={{ margin: '10px -18px 0 0 ' }} inverted>
       <div style={{ background: 'src/assets/background.img' }}></div>
       <Grid columns={2}>
         <GridColumn style={{ padding: '0 0' }} id="leftColumn">
@@ -20,7 +19,6 @@ const Hero = () => {
           <Image src={background} id="background" fluid></Image>
         </GridColumn>
       </Grid>
-      {/* <AboutMe /> */}
     </Segment>
   )
 }

@@ -19,8 +19,7 @@ body {
 }
 
 #navBarSegment {
-  /* padding: 10px 0; */
-  margin: -10px 0;
+  margin: 0;
 }
 
 #logo {
@@ -75,12 +74,16 @@ p {
   font-size: small;
   color: rebeccapurple;
 }
+#segmentAbout {
+  padding: 10px 50px 0 10px;
+}
 
 #infoAbout {
   text-align: justify;
   color: black;
   font-size: small;
-  padding: 0 30px;
+  /* min-height: 80px; */
+  /* padding: 0 30px; */
 }
 
 #iconSegment {

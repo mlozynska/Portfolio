@@ -57,7 +57,7 @@ const ProjectsHome = () => {
       gitLink: 'https://github.com/mlozynska/SEI-Project-Three'
     },
     {
-      name: 'AVintCars',
+      name: 'VintCars',
       description:
         'Final solo project for the GA Software Engineering Bootcamp. Full-stack application with React frontend and Django Framework with PostgreSQL and Python on the backend. VintCars is an application where user can find and rent a vintage car.',
       technologies: [

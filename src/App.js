@@ -18,6 +18,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/interests" element={<Interests />} />
       </Routes>
+      {/* <Footer /> */}
     </BrowserRouter>
   )
 }

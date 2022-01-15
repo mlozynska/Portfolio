@@ -142,7 +142,7 @@ p {
   width: 250px;
 }
 #headerProjects {
-  color: rebeccapurple;
+  /* color: rebeccapurple; */
   margin: 40px 0 25px 0;
   text-align: center;
 }
@@ -171,12 +171,9 @@ p {
 #list {
   font-weight: lighter;
   font-size: 10px;
+  margin-top: 0px;
 }
 
-#cardLogos {
-  /* height: 10px;
-  width: 10px; */
-}
 #cardFooter {
   text-align: center;
   background: rgb(240 227 246);
@@ -190,4 +187,13 @@ p {
   display: flex;
   justify-content: center;
   max-height: 50px;
+}
+
+#bakingImgs {
+  display: flex;
+  justify-content: center;
+}
+#carouselImg {
+  height: 300px;
+  width: 220px;
 }

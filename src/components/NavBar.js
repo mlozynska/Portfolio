@@ -20,7 +20,7 @@ const NavBar = () => {
               </Header>
             </Menu.Item>
 
-            <Menu.Item>
+            <Menu.Item as={Link} to="/interests">
               <Header as="h4" style={{ color: 'rebeccapurple' }}>
                 INTERESTS
               </Header>

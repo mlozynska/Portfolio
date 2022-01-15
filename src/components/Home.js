@@ -5,7 +5,7 @@ import Skills from './Skills'
 import Hero from './Hero'
 import About from './About'
 import Footer from './Footer'
-import Projects from './Projects'
+import ProjectsHome from './ProjectsHome'
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
       <About />
       <Skills />
-      {/* <Projects /> */}
+      <ProjectsHome />
       <Footer />
     </Segment>
   )

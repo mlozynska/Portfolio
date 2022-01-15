@@ -20,11 +20,6 @@ const NavBar = () => {
               </Header>
             </Menu.Item>
 
-            <Menu.Item as={Link} to="/experiences">
-              <Header as="h4" style={{ color: 'rebeccapurple' }}>
-                EXPERIENCE
-              </Header>
-            </Menu.Item>
             <Menu.Item>
               <Header as="h4" style={{ color: 'rebeccapurple' }}>
                 INTERESTS

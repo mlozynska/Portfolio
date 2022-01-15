@@ -5,6 +5,7 @@ import Skills from './Skills'
 import Hero from './Hero'
 import About from './About'
 import Footer from './Footer'
+import Projects from './Projects'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <About />
       <Skills />
+      {/* <Projects /> */}
       <Footer />
     </Segment>
   )

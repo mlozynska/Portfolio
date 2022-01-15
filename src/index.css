@@ -7,14 +7,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
 
 body {
   /* background: #00b5ad4d !important; */
-  background: #00b5ad26 !important;
+  /* background: #00b5ad26 !important; */
   /* background: #eee8f1db !important; */
 }
 
@@ -128,10 +128,15 @@ p {
   text-align: center;
   align-items: center;
 }
+#projectInfo {
+  padding: 10px 0 0 0;
+  margin: 20px 50px 0 50px;
+}
 
 #cardContent {
   text-align: justify;
   font-size: 12px;
+  min-height: 135px;
 }
 #projectCard {
   width: 250px;
@@ -144,37 +149,42 @@ p {
 
 #cardP {
   color: rebeccapurple;
+  color: black;
   font-size: small;
-  padding-top: 5px;
   text-align: center;
+  font-weight: bold;
 }
 
 #cardTitle {
-  min-height: 50px;
+  min-height: 45px;
   color: rebeccapurple;
   text-align: center;
+  font-size: large;
 }
 
 #unLi {
   min-height: 75px;
-  margin: 15px 0;
+
   text-align: center;
 }
 
 #list {
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 10px;
 }
 
+#cardLogos {
+  /* height: 10px;
+  width: 10px; */
+}
 #cardFooter {
   text-align: center;
   background: rgb(240 227 246);
 }
 
 #footerSegment {
-  background: rgb(240 227 246);
-  background: #9771bd;
-  background: #ce71e54a;
+  /* background: rgb(240 227 246); */
+  /* background: #ce71e54a; */
   margin: 20px -20px 0 -20px;
   padding: 0 0 50px 0;
   display: flex;

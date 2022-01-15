@@ -1,17 +1,14 @@
 import React from 'react'
-import { Segment, Header, Icon, Grid } from 'semantic-ui-react'
+import { Segment, Icon, Grid } from 'semantic-ui-react'
 
 const Footer = () => {
   return (
-    <Segment
-      id="footerSegment"
-      basic
-      // style={{ background: 'rgb(240 227 246)' }}
-    >
+    <Segment id="footerSegment" basic>
       <Grid columns={2}></Grid>
       <Segment basic as="h5">
         Contact Info:
       </Segment>
+
       <Segment basic style={{ padding: '8px 0 0 0' }}>
         <a href="https://github.com/mlozynska/">
           <Icon name="github" size="large" color="black" />

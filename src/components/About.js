@@ -1,20 +1,13 @@
 import React from 'react'
-import {
-  Segment,
-  Header,
-  Grid,
-  GridColumn,
-  Image,
-  Icon
-} from 'semantic-ui-react'
-import MLcroped from '../assets/MLcroped.png'
+import { Segment, Grid, GridColumn, Image } from 'semantic-ui-react'
+import MLcircle from '../assets/MLcircle.png'
 
 const About = () => {
   return (
     <>
-      <Header as="h3" style={{ color: 'rebeccapurple' }}>
+      {/* <Header as="h3" style={{ color: 'rebeccapurple' }}>
         ABOUT
-      </Header>
+      </Header> */}
       <p id="shortAbout">
         <em>
           “Motivated entry-level software engineer with MBA degree, hands-on
@@ -24,8 +17,8 @@ const About = () => {
       </p>
       <Grid columns={2}>
         <GridColumn style={{ padding: '10px 0 0 40px' }} id="leftColumn">
-          <Image src={MLcroped} />
-          <Icon></Icon>
+          {/* <Image src={MLcroped} /> */}
+          <Image src={MLcircle} size="medium" />
         </GridColumn>
         <GridColumn style={{ padding: '0 0' }}>
           <Segment basic id="segmentAbout" style={{ maxWidth: '550px' }}>

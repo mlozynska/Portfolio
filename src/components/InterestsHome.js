@@ -34,13 +34,13 @@ const InterestsHome = () => {
   ]
   return (
     <>
-      <TopHeader />
+      {/* <TopHeader /> */}
       {/* <Header id="interests" as="h2" style={{ color: 'rebeccapurple' }}> */}
-      <Header as="h3" style={{ color: 'rebeccapurple' }}>
+      <Header as="h3" id="interests" style={{ color: 'rebeccapurple' }}>
         INTERESTS
       </Header>
       <Segment style={{ margin: '-20px -20px 0 0' }} basic>
-        <Header id="headerInterests" as="h3" style={{ padding: '0 33px 0 0' }}>
+        <Header id="headerInterests" as="h3" style={{ padding: '0 20px 0 0' }}>
           Music
         </Header>
 
@@ -51,36 +51,47 @@ const InterestsHome = () => {
             </em>
           </p>
           <p style={{ color: 'black' }}>
-            Music has always been part of my life. I believe music has the
-            ability to convey all sorts of emotion. Whether the emotion is joy
-            and happines or sadness and despair through the rhythms, harmonies
-            and the lyrics. The fact that music can tell a story, create images,
-            or a personal connection through song is amazing.
+            Music has always been a part of my life. I believe music has unique
+            ability, through sounds, harmonies, tembres and rythms, to convey
+            all sorts of thoughts and emotions. Those of joy or sadness,
+            happiness or dispare, deep concentration or relaxation. Music can
+            tell any story, create any image, call for any action, trigger any
+            imagination. Music is much more than a universal language. It still
+            remains an unresolved enigma. I am a proud mom of three young
+            musicians with whom I study music as well. I adore classical music
+            but also enjoy good old pop and rock.
           </p>
         </Segment>
         <Segment style={{ margin: '-20px -20px 0 0' }} basic>
           <Header
             id="headerInterests"
             as="h3"
-            style={{ padding: '0 50px 0 0 ' }}
+            style={{ padding: '0 45px 0 0 ' }}
           >
             Baking
           </Header>
+          <p style={{ color: 'black' }} id="pBaking">
+            <em>
+              "The softest pain on Earth must be the pain au chocolat", Alain
+              Bremond-Torrent
+            </em>
+          </p>
 
           <Segment id="bakingSegment" basic>
             <p style={{ color: 'black' }}>
-              I start backing as a child, carefully following recepies for
-              cookies and cakes when my grandma taught me the secrets of Polish
-              and Ukrainian traditional causine. When moved to London I decided
-              to push this passion to higher level and qualified as a Pastry
-              Chef from Le Gordon Blue London school.
+              I started baking as a child when meticulously followed recepies
+              for cookies and cakes when my grandma taught me the secrets of
+              Polish and Ukrainian traditional causine. When I moved to London,
+              I decided to push this family passion and tradition even further
+              and received a Pastry Chef diploma from Le Gordon Blue London
+              culinary school.
             </p>
 
             <p style={{ color: 'black' }}>
-              I love to bake birthday cakes and cupcakes for my friends, kids
-              friends and of course for my family. It is such a delightful
-              feeling to make another person happy by presenting them a homemade
-              delicacy.
+              I love to bake birthday cakes and cupcakes for my friends, friends
+              of my children and, of course, for my belowed larger family. It is
+              such a delightful and rewarding feeling of self-fulfilment to make
+              people happy by presenting them a homemade delicacy.
             </p>
           </Segment>
 
@@ -109,15 +120,21 @@ const InterestsHome = () => {
           >
             Dollmaking
           </Header>
-
+          <p style={{ color: 'black' }} id="pBaking">
+            <em>
+              "A dolls ability to uplift the human spirit can be immeasurable",
+              Gayle Wray
+            </em>
+          </p>
           <Segment id="bakingSegment" basic>
             <p style={{ color: 'black' }}>
               My creative jorney with dolls was inspired by my little daughter.
               When she saw a beautiful handmade textile doll in one of the
               handycraft art magazines she started to dream about having one. I
-              decided not to buy but to make a doll by myself. I was surprised
-              how pieces of fabric were gradually turning into a beautiful
-              life-like creature.
+              decided not to buy but to make a doll by myself. I was, and still
+              am, fascinated to watch how pieces of fabric and other bits are
+              gradually transformed into beautiful life-like creatures that
+              start to live a life of their own.
             </p>
           </Segment>
 

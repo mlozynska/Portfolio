@@ -25,7 +25,7 @@ const NavBar = () => {
                 INTERESTS
               </Header>
             </Menu.Item>
-            <Menu.Item>
+            <Menu.Item as={Link} to="/contacts">
               <Header as="h4" style={{ color: 'rebeccapurple' }}>
                 CONTACT
               </Header>

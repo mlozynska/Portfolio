@@ -1,11 +1,14 @@
 import React from 'react'
-import { Segment, Header } from 'semantic-ui-react'
+import { Header, Segment } from 'semantic-ui-react'
+import TopHeader from './TopHeader'
+import Footer from './Footer'
 
 const Contacts = () => {
   return (
-    <Segment>
-      <Header>My contacts</Header>
-    </Segment>
+    <>
+      <TopHeader />
+      <Segment>My contacts</Segment>
+    </>
   )
 }
 export default Contacts

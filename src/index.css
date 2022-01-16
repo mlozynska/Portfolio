@@ -142,7 +142,6 @@ p {
   width: 250px;
 }
 #headerProjects {
-  /* color: rebeccapurple; */
   margin: 40px 0 25px 0;
   text-align: center;
 }
@@ -193,7 +192,49 @@ p {
   display: flex;
   justify-content: center;
 }
+
+#pageHeader {
+  text-align: center;
+}
 #carouselImg {
-  height: 300px;
-  width: 220px;
+  height: 320px;
+  width: 230px;
+  padding-bottom: 50px;
+}
+
+#interests {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+#headerInterests {
+  text-align: center;
+  color: rgb(0 181 173 / 91%);
+  margin-top: 30px;
+  padding-right: 25px;
+}
+
+#bakingSegment {
+  text-align: justify;
+  padding: 20px 50px 30px 30px;
+  margin: 0 0 0 -20px;
+}
+
+#music {
+  margin-left: -20px;
+  text-align: center;
+  color: rgb(0 181 173 / 91%);
+  margin-top: 30px;
+  padding-right: 25px;
+}
+
+#pMusic {
+  color: 'black';
+  text-align: end;
+}
+
+#musicSegment {
+  text-align: justify;
+  padding: 20px 45px 20px 44px;
+  margin: 0 0 0 -20px;
 }

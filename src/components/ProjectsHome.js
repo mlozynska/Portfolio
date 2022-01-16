@@ -82,7 +82,7 @@ const ProjectsHome = () => {
 
   return (
     <>
-      <Header id="headerProjects" as="h1" style={{ color: 'rebeccapurple' }}>
+      <Header id="pageHeader" as="h3" style={{ color: 'rebeccapurple' }}>
         PROJECTS
       </Header>
       <Card.Group itemsPerRow={4} style={{ justifyContent: 'center' }}>

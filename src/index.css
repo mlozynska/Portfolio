@@ -242,3 +242,11 @@ p {
   padding: 20px 45px 20px 44px;
   margin: 0 0 0 -20px;
 }
+#contactImg {
+  padding-top: 10px;
+}
+#contactInfo {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0 0 0;
+}

@@ -82,8 +82,8 @@ const ProjectsHome = () => {
 
   return (
     <>
-      <Header id="pageHeader" as="h3" style={{ color: 'rebeccapurple' }}>
-        PROJECTS
+      <Header className="interests" as="h3" style={{ color: 'rebeccapurple' }}>
+        <u>PROJECTS</u>
       </Header>
       <Card.Group itemsPerRow={4} style={{ justifyContent: 'center' }}>
         {projects.map((project) => {
@@ -126,7 +126,6 @@ const ProjectsHome = () => {
           )
         })}
       </Card.Group>
-      {/* <Footer /> */}
     </>
   )
 }

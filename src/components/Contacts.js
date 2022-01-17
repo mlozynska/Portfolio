@@ -1,14 +1,13 @@
 import React from 'react'
 import { Header, Segment, Image, Icon } from 'semantic-ui-react'
 import TopHeader from './TopHeader'
-
 import MLcontacts from '../assets/MLcontacts.png'
 
 const Contacts = () => {
   return (
     <>
       <TopHeader />
-      <Header as="h3" id="interests" style={{ color: 'rebeccapurple' }}>
+      <Header as="h3" className="interests" style={{ color: 'rebeccapurple' }}>
         CONTACT
       </Header>
       <Image id="contactImg" src={MLcontacts} centered rounded />

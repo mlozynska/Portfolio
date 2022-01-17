@@ -9,24 +9,40 @@ const NavBar = () => {
         <Menu secondary position="center">
           <Grid columns={4} style={{ justifyContent: 'center' }}>
             <Menu.Item as={Link} to="/">
-              <Header as="h4" style={{ color: 'rebeccapurple' }}>
+              <Header
+                id="navBarOptions"
+                as="h4"
+                style={{ color: 'rebeccapurple' }}
+              >
                 HOME
               </Header>
             </Menu.Item>
 
             <Menu.Item as={Link} to="/projects">
-              <Header as="h4" style={{ color: 'rebeccapurple' }}>
+              <Header
+                id="navBarOptions"
+                as="h4"
+                style={{ color: 'rebeccapurple' }}
+              >
                 PROJECTS
               </Header>
             </Menu.Item>
 
             <Menu.Item as={Link} to="/interests">
-              <Header as="h4" style={{ color: 'rebeccapurple' }}>
+              <Header
+                id="navBarOptions"
+                as="h4"
+                style={{ color: 'rebeccapurple' }}
+              >
                 INTERESTS
               </Header>
             </Menu.Item>
             <Menu.Item as={Link} to="/contacts">
-              <Header as="h4" style={{ color: 'rebeccapurple' }}>
+              <Header
+                id="navBarOptions"
+                as="h4"
+                style={{ color: 'rebeccapurple' }}
+              >
                 CONTACT
               </Header>
             </Menu.Item>

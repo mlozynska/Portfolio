@@ -1,21 +1,13 @@
-/* body {
-  margin: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=EB+Garamond:wght@500&family=Quicksand:wght@300&display=swap');
+
+* {
+  /* font-family: 'EB Garamond', serif; */
+  font-family: Quicksand, serif;
 }
-
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-body {
-  /* background: #00b5ad4d !important; */
-  /* background: #00b5ad26 !important; */
-  /* background: #eee8f1db !important; */
+#navBarOptions {
+  font-family: Quicksand, serif;
 }
 
 #navBarSegment {
@@ -46,6 +38,7 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
 #leftColumn {
   display: flex;
   align-items: center;
@@ -59,7 +52,6 @@ body {
 
 h1.ui.header {
   margin: 20px 0 0 0;
-  /* color: mediumturquoise; */
   color: #9771bd;
 }
 
@@ -70,7 +62,7 @@ h1.ui.header {
 
 p {
   color: mediumturquoise;
-  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: Quicksand, sans-serif !important;
 }
 
 #segmentAboutMe {
@@ -80,27 +72,30 @@ p {
   margin: -15px -15px 0 -21px;
   padding-top: 0;
 }
+
 .ui.header:first-child {
   margin-bottom: -5px;
 }
 
-#shortAbout {
+/* #shortAbout {
   color: black;
   padding: 0 80px;
-  margin: 30px 0;
+  margin: 20px 0 0px 0;
   font-size: medium;
   color: rebeccapurple;
-}
+} */
+
 #segmentAbout {
-  padding: 10px 50px 0 10px;
+  padding: 40px 0 0 0;
 }
 
 #infoAbout {
   text-align: justify;
   color: black;
   font-size: small;
-  /* min-height: 80px; */
-  /* padding: 0 30px; */
+}
+#skillsAnimation {
+  animation-delay: 1s;
 }
 
 #iconSegment {
@@ -108,7 +103,6 @@ p {
 }
 
 #iconId {
-  /* color: black; */
   color: rebeccapurple;
   font-size: xx-small;
   padding-top: 5px;
@@ -128,6 +122,7 @@ p {
   text-align: center;
   align-items: center;
 }
+
 #projectInfo {
   padding: 10px 0 0 0;
   margin: 20px 50px 0 50px;
@@ -138,9 +133,11 @@ p {
   font-size: 12px;
   min-height: 135px;
 }
+
 #projectCard {
   width: 250px;
 }
+
 #headerProjects {
   margin: 40px 0 25px 0;
   text-align: center;
@@ -163,7 +160,6 @@ p {
 
 #unLi {
   min-height: 75px;
-
   text-align: center;
 }
 
@@ -179,8 +175,6 @@ p {
 }
 
 #footerSegment {
-  /* background: rgb(240 227 246); */
-  /* background: #ce71e54a; */
   margin: 20px -20px 0 -20px;
   padding: 0 0 50px 0;
   display: flex;
@@ -188,63 +182,37 @@ p {
   max-height: 50px;
 }
 
-#bakingImgs {
-  display: flex;
-  justify-content: center;
+/*! Interests */
+.interests {
+  text-align: center;
+  margin-top: 20px !important;
 }
 
-#pageHeader {
+.interestsType {
   text-align: center;
 }
+
+.pInterests {
+  text-align: end;
+  padding: 20px 50px 0 30px;
+}
+
+.pInterestsDescription {
+  text-align: justify;
+  padding: 0 30px;
+}
+
 #carouselImg {
   height: 320px;
   width: 230px;
   padding-bottom: 50px;
 }
+/*! Interests END*/
 
-#interests {
-  margin: 45px 0 0 0;
-  text-align: center;
-}
-
-#headerInterests {
-  text-align: center;
-  color: rgb(0 181 173 / 91%);
-  margin-top: 30px;
-  padding-right: 25px;
-}
-
-#bakingSegment {
-  text-align: justify;
-  padding: 20px 50px 30px 30px;
-  margin: 0 0 0 -20px;
-}
-
-#music {
-  margin-left: -20px;
-  text-align: center;
-  color: rgb(0 181 173 / 91%);
-  margin-top: 30px;
-  padding-right: 25px;
-}
-
-#pMusic {
-  color: 'black';
-  text-align: end;
-}
-#pBaking {
-  text-align: end;
-  margin: 0 50px 0 14px;
-  padding: 20px 0 0 0;
-}
-#musicSegment {
-  text-align: justify;
-  padding: 20px 45px 20px 44px;
-  margin: 0 0 0 -20px;
-}
 #contactImg {
   padding-top: 10px;
 }
+
 #contactInfo {
   display: flex;
   justify-content: center;

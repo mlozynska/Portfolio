@@ -1,13 +1,19 @@
 import React from 'react'
 import { Header, Segment, Card, Image } from 'semantic-ui-react'
+import 'animate.css'
 
 const Skills = () => {
   return (
-    <Segment style={{ marginTop: '35px' }} basic>
-      <Header as="h3" style={{ color: 'rebeccapurple' }}>
-        SKILLS
+    <Segment basic style={{ margin: '25px 0 0 0' }}>
+      <Header className="interests" as="h3" style={{ color: 'rebeccapurple' }}>
+        <u>SKILLS</u>
       </Header>
-      <Segment basic style={{ padding: '0 50px' }}>
+      <Segment
+        id="skillsAnimation"
+        basic
+        style={{ padding: '0 50px' }}
+        className="animate__animated animate__backInLeft"
+      >
         <Card.Group itemsPerRow={7} style={{ justifyContent: 'center' }}>
           <Card id="iconCard" raised color="black">
             <Card.Content

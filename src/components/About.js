@@ -5,23 +5,26 @@ import MLcircle from '../assets/MLcircle.png'
 const About = () => {
   return (
     <>
-      {/* <Header as="h3" style={{ color: 'rebeccapurple' }}>
-        ABOUT
-      </Header> */}
-      <p id="shortAbout">
-        <em>
-          “Motivated entry-level software engineer with MBA degree, hands-on
-          managerial experience in marketing and business education, a mother of
-          three, in pursuit of most important career and life-style change”
-        </em>
-      </p>
-      <Grid columns={2}>
-        <GridColumn style={{ padding: '10px 0 0 40px' }} id="leftColumn">
-          {/* <Image src={MLcroped} /> */}
-          <Image src={MLcircle} size="medium" />
-        </GridColumn>
-        <GridColumn style={{ padding: '0 0' }}>
+      <Grid columns={2} style={{ justifyContent: 'center' }}>
+        <Grid.Column
+          style={{ padding: '10px 0 0 40px' }}
+          id="leftColumn"
+          width={4}
+        >
+          <Image src={MLcircle} size="small" />
+        </Grid.Column>
+        <Grid.Column style={{ margin: '0' }} width={10}>
           <Segment basic id="segmentAbout" style={{ maxWidth: '550px' }}>
+            <p id="infoAbout" style={{ color: 'rebeccapurple' }}>
+              <em>
+                <strong>
+                  “Motivated entry-level software engineer with MBA degree,
+                  hands-on managerial experience in marketing and business
+                  education, a mother of three, in pursuit of most important
+                  career and life-style change”
+                </strong>
+              </em>
+            </p>
             <p id="infoAbout">
               Having received good economic and management education as well as
               relevant business experience, I came to realize, through a lucky
@@ -41,7 +44,7 @@ const About = () => {
               start my new life and career in software engineering.
             </p>
           </Segment>
-        </GridColumn>
+        </Grid.Column>
       </Grid>
     </>
   )

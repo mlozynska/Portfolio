@@ -1,12 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap'); */
-
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=EB+Garamond:wght@500&family=Quicksand:wght@300&display=swap');
 
 * {
-  /* font-family: 'EB Garamond', serif; */
   font-family: Quicksand, serif;
 }
-#navBarOptions {
+#navBarOptions,
+#marianaLozynska,
+#h1TopHeader,
+#cardTitle,
+#footerContacts {
   font-family: Quicksand, serif;
 }
 
@@ -48,6 +49,7 @@
 #topHederSegment {
   max-height: 160px;
   margin: -10px -20px 0 0;
+  font-family: Quicksand, serif !important;
 }
 
 h1.ui.header {
@@ -77,14 +79,6 @@ p {
   margin-bottom: -5px;
 }
 
-/* #shortAbout {
-  color: black;
-  padding: 0 80px;
-  margin: 20px 0 0px 0;
-  font-size: medium;
-  color: rebeccapurple;
-} */
-
 #segmentAbout {
   padding: 40px 0 0 0;
 }
@@ -94,8 +88,12 @@ p {
   color: black;
   font-size: small;
 }
+
+/*! Skills */
 #skillsAnimation {
   animation-delay: 1s;
+  max-width: 800px;
+  display: inline-block;
 }
 
 #iconSegment {
@@ -108,25 +106,11 @@ p {
   padding-top: 5px;
 }
 
-#iconCard {
-  width: 80px;
-}
-
 #iconCardContent {
   padding: 10px 0;
-  background: '#00b5ad4d';
 }
 
-#segmentProjects {
-  height: 35px;
-  text-align: center;
-  align-items: center;
-}
-
-#projectInfo {
-  padding: 10px 0 0 0;
-  margin: 20px 50px 0 50px;
-}
+/*! Projects */
 
 #cardContent {
   text-align: justify;
@@ -136,16 +120,11 @@ p {
 
 #projectCard {
   width: 250px;
-}
-
-#headerProjects {
-  margin: 40px 0 25px 0;
-  text-align: center;
+  margin: 15px;
 }
 
 #cardP {
   color: rebeccapurple;
-  color: black;
   font-size: small;
   text-align: center;
   font-weight: bold;
@@ -174,9 +153,10 @@ p {
   background: rgb(240 227 246);
 }
 
+/*! Footer */
 #footerSegment {
   margin: 20px -20px 0 -20px;
-  padding: 0 0 50px 0;
+  padding: 0 0 75px 0;
   display: flex;
   justify-content: center;
   max-height: 50px;
@@ -186,10 +166,12 @@ p {
 .interests {
   text-align: center;
   margin-top: 20px !important;
+  font-family: Quicksand, serif !important;
 }
 
 .interestsType {
   text-align: center;
+  font-family: Quicksand, serif !important;
 }
 
 .pInterests {
@@ -207,12 +189,8 @@ p {
   width: 230px;
   padding-bottom: 50px;
 }
-/*! Interests END*/
 
-#contactImg {
-  padding-top: 10px;
-}
-
+/*! Contact*/
 #contactInfo {
   display: flex;
   justify-content: center;

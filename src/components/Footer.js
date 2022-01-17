@@ -5,7 +5,12 @@ const Footer = () => {
   return (
     <Segment id="footerSegment" basic>
       <Grid columns={2}></Grid>
-      <Segment basic as="h4" style={{ color: 'rgb(0 181 173 / 91%)' }}>
+      <Segment
+        id="footerContacts"
+        basic
+        as="h4"
+        style={{ color: 'rgb(0 181 173 / 91%)' }}
+      >
         Contact Info:
       </Segment>
 

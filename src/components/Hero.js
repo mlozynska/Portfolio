@@ -11,7 +11,9 @@ const Hero = () => {
         <GridColumn style={{ padding: '0 0' }} id="leftColumn">
           <Segment id="logoInfo" basic>
             <Image src={logo} id="logo" centered />
-            <Header as="h1">Mariana Lozynska </Header>
+            <Header id="marianaLozynska" as="h1">
+              Mariana Lozynska{' '}
+            </Header>
             <p as="h4">Software Developer | Pastry Chef | Dollmaker</p>
           </Segment>
         </GridColumn>

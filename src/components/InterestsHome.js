@@ -126,7 +126,7 @@ const InterestsHome = () => {
         </p>
         <p style={{ color: 'black' }} className="pInterestsDescription">
           I love to bake birthday cakes and cupcakes for my friends, friends of
-          my children and, of course, for my belowed larger family. It is such a
+          my children and, of course, for my beloved larger family. It is such a
           delightful and rewarding feeling of self-fulfilment to make people
           happy by presenting them a homemade delicacy.
         </p>

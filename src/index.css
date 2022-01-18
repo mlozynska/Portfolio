@@ -65,6 +65,7 @@ h1.ui.header {
 p {
   color: mediumturquoise;
   font-family: Quicksand, sans-serif !important;
+  font-size: medium;
 }
 
 #segmentAboutMe {
@@ -86,7 +87,7 @@ p {
 #infoAbout {
   text-align: justify;
   color: black;
-  font-size: small;
+  font-size: large;
 }
 
 /*! Skills */
@@ -114,7 +115,7 @@ p {
 
 #cardContent {
   text-align: justify;
-  font-size: 12px;
+  font-size: small;
   min-height: 135px;
 }
 
@@ -144,7 +145,7 @@ p {
 
 #list {
   font-weight: lighter;
-  font-size: 10px;
+  font-size: small;
   margin-top: 0px;
 }
 
@@ -177,16 +178,18 @@ p {
 .pInterests {
   text-align: end;
   padding: 20px 50px 0 30px;
+  font-size: medium;
 }
 
 .pInterestsDescription {
   text-align: justify;
   padding: 0 30px;
+  font-size: medium;
 }
 
 #carouselImg {
-  height: 320px;
-  width: 230px;
+  height: 380px;
+  width: 275px;
   padding-bottom: 50px;
 }
 

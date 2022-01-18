@@ -178,13 +178,13 @@ p {
 .pInterests {
   text-align: end;
   padding: 20px 50px 0 30px;
-  font-size: medium;
+  font-size: large;
 }
 
 .pInterestsDescription {
   text-align: justify;
   padding: 0 30px;
-  font-size: medium;
+  font-size: large;
 }
 
 #carouselImg {

@@ -71,12 +71,12 @@ const InterestsHome = () => {
         style={{ margin: '0 0 35px 0' }}
         className="animate__animated animate__backInLeft"
       >
-        <Image src={doll1} style={{ margin: '5px' }} size="medium " />
-        <Image src={doll2} style={{ margin: '5px' }} size="medium " />
-        <Image src={doll3} style={{ margin: '5px' }} size="medium" />
-        <Image src={doll4} style={{ margin: '5px' }} size="medium" />
-        <Image src={doll5} style={{ margin: '5px' }} size="medium" />
-        <Image src={doll6} style={{ margin: '5px' }} size="medium" />
+        <Image src={doll1} style={{ margin: '5px' }} size="small " />
+        <Image src={doll2} style={{ margin: '5px' }} size="small" />
+        <Image src={doll3} style={{ margin: '5px' }} size="small" />
+        <Image src={doll4} style={{ margin: '5px' }} size="small" />
+        <Image src={doll5} style={{ margin: '5px' }} size="small" />
+        <Image src={doll6} style={{ margin: '5px' }} size="small" />
       </Grid>
 
       <Segment basic>

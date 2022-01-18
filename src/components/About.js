@@ -14,7 +14,7 @@ const About = () => {
           <Image src={MLcircle} size="small" />
         </Grid.Column>
         <Grid.Column style={{ margin: '0' }} width={10}>
-          <Segment basic id="segmentAbout" style={{ maxWidth: '550px' }}>
+          <Segment basic id="segmentAbout">
             <p id="infoAbout" style={{ color: 'rebeccapurple' }}>
               <em>
                 <strong>

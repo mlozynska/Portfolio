@@ -97,19 +97,19 @@ const Skills = () => {
       <Segment
         id="skillsAnimation"
         basic
-        style={{ padding: '0 50px' }}
+        // style={{ padding: '0 20px' }}
         className="animate__animated animate__backInLeft"
       >
-        <Card.Group itemsPerRow={7} style={{ justifyContent: 'center' }}>
+        <Card.Group itemsPerRow={5} style={{ justifyContent: 'center' }}>
           {skills.map((skill) => {
             return (
-              <Card raised color="black" style={{ width: '80px' }}>
+              <Card raised color="black" style={{ width: '110px' }}>
                 <Card.Content
                   id="iconCardContent"
                   style={{ background: '#00b5ad4d' }}
                 >
                   <Segment id="iconSegment" basic>
-                    <Image src={skill.logo} size="mini" />
+                    <Image src={skill.logo} size="tiny" />
                     <p id="iconId">{skill.name}</p>
                   </Segment>
                 </Card.Content>

@@ -19,7 +19,7 @@ const ProjectsHome = () => {
     {
       name: 'Astronomy pictures',
       description:
-        'The second project of the software engineering immersive course at GA London. Astronomy Pictures is a platform where users can find astronomy picture of our Universe with a brief explanation written by a professional astronomer.',
+        'The second project of the software engineering immersive course at GA London. Astronomy Pictures is a platform where users can find astronomy pictures of our Universe with a brief explanation written by a professional astronomer.',
       technologies: [
         'React.js',
         'CSS',
@@ -59,7 +59,7 @@ const ProjectsHome = () => {
     {
       name: 'VintCars',
       description:
-        'Final solo project for the GA Software Engineering Bootcamp. Full-stack application with React frontend and Django Framework with PostgreSQL and Python on the backend. VintCars is an application where user can find and rent a vintage car.',
+        'Final solo project for the GA Software Engineering Bootcamp. Full-stack application with React frontend and Django Framework with PostgreSQL and Python on the backend. VintCars is an application where users can find and rent a vintage car.',
       technologies: [
         'React.js',
         'CSS',

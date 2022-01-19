@@ -9,7 +9,7 @@ const Footer = () => {
         id="footerContacts"
         basic
         as="h4"
-        style={{ color: 'rgb(0 181 173 / 91%)' }}
+        style={{ color: 'rgb(0, 181, 173, 0.91)' }}
       >
         Contact Info:
       </Segment>
@@ -19,21 +19,21 @@ const Footer = () => {
           <Icon
             name="github"
             size="large"
-            style={{ color: 'rgba(0, 181, 173, 0.3)' }}
+            style={{ color: 'rgba(0, 181, 173, 0.91)' }}
           />
         </a>
         <a href="https://www.linkedin.com/in/mariana-lozynska/">
           <Icon
             name="linkedin square"
             size="large"
-            style={{ color: 'rgba(0, 181, 173, 0.3)' }}
+            style={{ color: 'rgba(0, 181, 173, 0.91)' }}
           />
         </a>
         <a href="mailto:mlozynska79@gmail.com">
           <Icon
             name="mail"
             size="large"
-            style={{ color: 'rgba(0, 181, 173, 0.3)' }}
+            style={{ color: 'rgba(0, 181, 173, 0.91)' }}
           />
         </a>
       </Segment>

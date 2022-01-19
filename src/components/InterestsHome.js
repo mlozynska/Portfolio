@@ -58,11 +58,11 @@ const InterestsHome = () => {
           </em>
         </p>
         <p style={{ color: 'black' }} className="pInterestsDescription">
-          My creative jorney with dolls was inspired by my little daughter. When
-          she saw a beautiful handmade textile doll in one of the handycraft art
-          magazines she started to dream about having one. I decided not to buy
-          but to make a doll by myself. I was, and still am, fascinated to watch
-          how pieces of fabric and other bits are gradually transformed into
+          My creative journey with dolls was inspired by my little daughter.
+          When she saw a beautiful handmade textile doll in one of the
+          handicraft art magazines she started to dream about having one. I
+          decided not to buy it but to make a doll by myself. I was, and still
+          am, how pieces of fabric and other bits are gradually transformed into
           beautiful life-like creatures that start to live a life of their own.
         </p>
       </Segment>
@@ -91,10 +91,10 @@ const InterestsHome = () => {
           <em>"Without music, life would be a mistake", Friedrich Nietzsche</em>
         </p>
         <p style={{ color: 'black' }} className="pInterestsDescription">
-          Music has always been a part of my life. I believe music has unique
-          ability, through sounds, harmonies, tembres and rythms, to convey all
+          Music has always been a part of my life. I believe music has a unique
+          ability, through sounds, harmonies, timbres and rhythms, to convey all
           sorts of thoughts and emotions. Those of joy or sadness, happiness or
-          dispare, deep concentration or relaxation. Music can tell any story,
+          despair, deep concentration or relaxation. Music can tell any story,
           create any image, call for any action, trigger any imagination. Music
           is much more than a universal language. It still remains an unresolved
           enigma. I am a proud mom of three young musicians with whom I study
@@ -118,11 +118,11 @@ const InterestsHome = () => {
           </em>
         </p>
         <p style={{ color: 'black' }} className="pInterestsDescription">
-          I started baking as a child when meticulously followed recepies for
+          I started baking as a child when I meticulously followed recipes for
           cookies and cakes when my grandma taught me the secrets of Polish and
-          Ukrainian traditional causine. When I moved to London, I decided to
+          Ukrainian traditional cuisine. When I moved to London, I decided to
           push this family passion and tradition even further and received a
-          Pastry Chef diploma from Le Gordon Blue London culinary school.
+          Pastry Chef diploma from Le Cordon Bleu London culinary school.
         </p>
         <p style={{ color: 'black' }} className="pInterestsDescription">
           I love to bake birthday cakes and cupcakes for my friends, friends of

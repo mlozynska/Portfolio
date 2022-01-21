@@ -49,7 +49,7 @@ const InterestsHome = () => {
           className="interestsType"
           style={{ color: 'rgb(0 181 173 / 91%)' }}
         >
-          Doll making
+          Doll Making
         </Header>
         <p style={{ color: 'black' }} className="pInterests">
           <em>

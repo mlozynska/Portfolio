@@ -62,8 +62,9 @@ const InterestsHome = () => {
           When she saw a beautiful handmade textile doll in one of the
           handicraft art magazines she started to dream about having one. I
           decided not to buy it but to make a doll by myself. I was, and still
-          am, how pieces of fabric and other bits are gradually transformed into
-          beautiful life-like creatures that start to live a life of their own.
+          am, fascinated by how pieces of fabric and other bits are gradually
+          transformed into beautiful life-like creatures that start to live a
+          life of their own.
         </p>
       </Segment>
       <Grid

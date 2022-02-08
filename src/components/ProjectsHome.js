@@ -13,7 +13,7 @@ const ProjectsHome = () => {
         'Grid-based game, developed with vanilla JavaScript, CSS & HTML. The first project of the software engineering immersive course at GA London.',
       technologies: ['HTML5', 'CSS', 'Vanilla JavaScript'],
       image: tetrisColor,
-      link: 'https://github.com/mlozynska/sei-project-1',
+      link: 'https://mlozynska.github.io/sei-project-1/',
       gitLink: 'https://github.com/mlozynska/sei-project-1'
     },
     {

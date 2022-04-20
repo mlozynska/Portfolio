@@ -46,7 +46,7 @@ const Skills = () => {
     },
     {
       name: 'Django',
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-line.svg'
+      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'
     },
     {
       name: 'Python',
